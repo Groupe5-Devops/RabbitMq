@@ -1,0 +1,10 @@
+com\example\rabbitmq\listener\OrderMessageListener.class
+com\example\rabbitmq\model\Order.class
+com\example\rabbitmq\model\Payment.class
+com\example\rabbitmq\model\PaymentStatus.class
+com\example\rabbitmq\model\PaymentMethod.class
+com\example\rabbitmq\model\OrderItem.class
+com\example\rabbitmq\model\OrderStatus.class
+com\example\rabbitmq\service\OrderService.class
+com\example\rabbitmq\repository\OrderRepository.class
+com\example\rabbitmq\model\Product.class

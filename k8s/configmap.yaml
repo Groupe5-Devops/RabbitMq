@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  application.yml: |
+    spring:
+      datasource:
+        url: jdbc:postgresql://postgres:5432/orderdb
+        username: postgres
+        password: postgres
+      jpa:
+        hibernate:
+          ddl-auto: update
+        show-sql: true
+      rabbitmq:
+        host: rabbitmq
+        port: 5672
+        username: guest
+        password: guest
+      spring:
+        rabbitmq:
+          queue:
+            name: order-queue
